@@ -5,6 +5,16 @@
     font-family: "Poppins", sans-serif;
   }
 
+  body {
+    background-image: url('assets/tennis_court1.png');
+    background-size: cover;         
+    background-repeat: no-repeat;    
+    background-position: center;    
+    background-attachment: fixed;
+    background-color: #1c3b57; 
+    color: #ffffff;               
+}
+
   .navbar-custom {
     background-color: #1c3b57;
 }

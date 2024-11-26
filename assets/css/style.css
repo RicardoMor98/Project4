@@ -5,7 +5,6 @@
     font-family: "Poppins", sans-serif;
   }
 
-
 /* Navbar styling */
 .navbar-custom {
     background-color: #1c3b57;
@@ -30,21 +29,20 @@
     text-align: center;
 }
 
-.hero-section h1 {
-    color: #1c3b57;
-    font-weight: 700;
+.hero-section .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-section p {
-    color: #444;
-    font-size: 1.1em;
+.hero-section h1 {
+    font-size: 2.5rem;
 }
 
 .hero-section img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer styling */
@@ -54,34 +52,11 @@ footer {
     padding: 20px 0;
 }
 
-.footercontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.socialicons a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: #fff;
-    margin: 5px;
-    border-radius: 50%;
-    transition: background-color 0.5s;
-}
-
-.socialicons a i {
-    font-size: 1.5em;
-    color: #1c3b57;
-    transition: color 0.5s;
-}
-
-.socialicons a:hover {
-    background-color: #d1e7ff;
-}
 
 .footerbottom p {
     margin: 10px 0;
     font-size: 0.9em;
+    text-align: center;
 }
 
 /* Responsive navbar */

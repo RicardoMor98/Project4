@@ -85,7 +85,7 @@ footer {
     text-align: center;
 }
 
-/* Responsive navbar */
+/* Responsive for smaller devices */
 @media (max-width: 992px) {
     .navbar-collapse {
         background-color: #1c3b57;

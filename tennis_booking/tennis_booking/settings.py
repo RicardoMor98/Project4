@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'tennis_booking.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tennis_booking_db',  # The name of database
-        'USER': 'mine_db_user',       # PostgreSQL username
-        'PASSWORD': 'mine_db_password',  #PostgreSQL password
+        'NAME': 'your_db_name',
+        'USER': 'your_db_user',
+        'PASSWORD': 'your_db_password',
         'HOST': 'localhost',
-        'PORT': '5432',               # Default PostgreSQL port
+        'PORT': '5432',
     }
 }
 
